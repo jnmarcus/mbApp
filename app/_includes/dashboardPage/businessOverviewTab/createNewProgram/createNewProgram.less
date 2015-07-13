@@ -1,0 +1,33 @@
+//@import "../../node_modules/semantic-ui-less/definitions/elements/button";
+
+////CREATE MODAL BUTTON
+//variables
+@backgroundColor: #b2cf97;
+@backgroundImage: linear-gradient(rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.1));
+@boxShadow:
+  0 -1px 0 0 rgba(0, 0, 0, 0.05) inset,
+0 0 0 1px rgba(0, 0, 0, 0.13) inset,
+0 1px 3px rgba(0, 0, 0, 0.05)
+;
+
+@coloredBackgroundImage: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+@coloredBoxShadow:
+  0 -1px 0 0 rgba(0, 0, 0, 0.05) inset,
+  0 0 0 1px rgba(0, 0, 0, 0.1) inset,
+  0 1px 3px rgba(0, 0, 0, 0.05)
+;
+
+//@ui: .ui;
+//@button: .button;
+//@uiButton: @ui + @button;
+
+.button-createNewProgram:extend(.ui.button all) {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+  //background-color: #60b044;
+  background-color: @backgroundColor;
+  //background-image: linear-gradient(#8add6d, #60b044);
+  background-image: @coloredBackgroundImage;
+  //border-color: #5ca941;
+  box-shadow: @coloredBoxShadow;
+}

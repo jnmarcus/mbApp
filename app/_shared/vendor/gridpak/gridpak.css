@@ -1,0 +1,117 @@
+/*!
+ * Gridpak Beta CSS
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign
+ */
+ 
+ 
+
+/* Reusable column setup */
+.col {
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+
+
+
+    /* 1. 16 Column Grid 0px - Infinity 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    5.3125%
+    Span 2:    11.625%
+    Span 3:    17.9375%
+    Span 4:    24.25%
+    Span 5:    30.5625%
+    Span 6:    36.875%
+    Span 7:    43.1875%
+    Span 8:    49.5%
+    Span 9:    55.8125%
+    Span 10:    62.125%
+    Span 11:    68.4375%
+    Span 12:    74.75%
+    Span 13:    81.0625%
+    Span 14:    87.375%
+    Span 15:    93.6875%
+    Span 16:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 0px) {
+        
+        .col {
+            margin-left:1%;
+        	padding:0 1%;
+        }
+        
+        .row .col:first-child {
+            margin-left:0;
+        }
+        
+        
+        /*
+        Add your semantic classnames in alongside their corresponding spans here. e.g.
+        
+        .span_3,
+        .my_semantic_class_name {
+            ...
+        }
+        */
+        
+        .span_1 {
+            width:5.3125%;
+        }
+        .span_2 {
+            width:11.625%;
+        }
+        .span_3 {
+            width:17.9375%;
+        }
+        .span_4 {
+            width:24.25%;
+        }
+        .span_5 {
+            width:30.5625%;
+        }
+        .span_6 {
+            width:36.875%;
+        }
+        .span_7 {
+            width:43.1875%;
+        }
+        .span_8 {
+            width:49.5%;
+        }
+        .span_9 {
+            width:55.8125%;
+        }
+        .span_10 {
+            width:62.125%;
+        }
+        .span_11 {
+            width:68.4375%;
+        }
+        .span_12 {
+            width:74.75%;
+        }
+        .span_13 {
+            width:81.0625%;
+        }
+        .span_14 {
+            width:87.375%;
+        }
+        .span_15 {
+            width:93.6875%;
+        }
+        .span_16 {
+            margin-left:0;
+            width:100%;
+        }
+    }
+

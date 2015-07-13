@@ -1,0 +1,90 @@
+// Variables
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Breakpoints
+//@bp-larger-than-mobile    : 400px;
+//@bp-larger-than-phablet   : 550px;
+//@bp-larger-than-tablet    : 750px;
+//@bp-larger-than-desktop   : 1000px;
+//@bp-larger-than-desktophd : 1200px;
+//
+//// Grid Variables
+@container-width: 1180px;
+//@container-width-larger-than-mobile: 95%;
+//@container-width-larger-than-phablet: 90%;
+//@total-columns: 12;
+//@column-width: 100 / @total-columns; // calculates individual column width based off of # of columns
+//@column-margin: 4%; // space between columns
+
+.page-container {
+  position: relative;
+  width: 100%;
+  max-width: @container-width;
+  margin-left: 6%;
+  margin-right: 6%;
+  box-sizing: border-box;
+}
+
+.full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// TYPOGRAPHY MIXINS
+// --------------------------------------------------
+
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-thin {
+  font-weight: 200;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-regular {
+  font-weight: 400;
+}
+
+.text-semibold {
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-tiny {
+  font-size: @font-size-smaller;
+}
+
+
+

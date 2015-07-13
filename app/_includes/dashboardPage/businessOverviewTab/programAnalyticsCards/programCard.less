@@ -1,0 +1,117 @@
+//& { @import "../../_bower_components/semantic-ui/src/definitions/views/card"; }
+
+.programCard {
+  border: 1px solid #e2e2e2;
+  .border-top-radius(@rounded-corner-radius);
+  .border-bottom-radius(@rounded-corner-radius);
+  background-color: #ffffff;
+  box-shadow: 0px 1px 1px -1px rgba(196,196,196,1);
+  //padding: 10px;
+  box-sizing: border-box;
+  width: 90%;
+  .center-block;
+  display: flex;
+  flex-direction: column;
+}
+
+.programCard-content {
+  //padding: 10px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+//.programCard-header {
+//  .flex-row;
+//  flex-wrap: nowrap;
+//  justify-content: space-between;
+//  align-content: stretch;
+//  align-items: center;
+//}
+//.programCard-content--header {
+.programCard-header {
+  .programCard-content;
+  padding-top: 15px;
+  padding-bottom: 5px;
+
+  .programTitle {
+    .pull-left;
+  }
+}
+.programCard-header--programTitle {
+  color: #4D4D42;
+  .pull-left;
+}
+
+.programCard-editButton {
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #e2e2e2;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  .pull-right;
+}
+
+.programCard-editButton--editIcon {
+  background-image: url(../_img/pencil_icons.png);
+  background-repeat: no-repeat;
+}
+
+.programCard-editButton--editIcon {
+  height: 22px;
+  background-position: 1px 2px;
+  cursor: pointer;
+
+  &:hover {
+    cursor: pointer;
+    background-position: 1px -16px;
+  }
+}
+.programCard-text {
+  .text-tiny;
+  .text-light;
+  //color: #BEBEB5;
+  color: #979797;
+}
+
+.programCard-toggleAccordianLink {
+
+}
+
+.programCard-banner {
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #FBFBF6;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  .flex-row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: center;
+}
+
+.programCard-col1 {
+  width: 33.3%;
+}
+
+.programCard-banner--col1 {
+  .programCard-col1;
+  word-wrap: break-word;
+}
+
+.programCard-tableContent {
+  //.flex-column;
+}
+
+.programCard-content--col1 {
+  .programCard-col1;
+  text-overflow: ellipsis;
+}
+
+
+
+
+

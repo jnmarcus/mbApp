@@ -1,0 +1,14 @@
+---
+- page: Dashboard
+  subnav:
+    - Dashboard
+    - Business Overview
+    - Schedule
+    - Reports
+- page: Sign In
+- page: Classes
+- page: Workshops
+- page: Appointments
+- page: Client Home
+- page: Retail
+---
